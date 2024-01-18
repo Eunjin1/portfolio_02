@@ -1,0 +1,38 @@
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header, section, footer {
+    width: 100%;
+    position: relative;
+}
+
+.in_section {
+    width: 97%;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.sub_title {
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.only_mo {
+    display: none;
+}
+
+.laptop {
+    display: none;
+}
